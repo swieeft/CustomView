@@ -1,5 +1,6 @@
+![Logo](https://github.com/swieeft/CustomView/blob/master/Resource/Logo.gif)
 
-# CustomView
+CustomView
 ===============
 
 ## 1. CustomView를 정리하는 이유
