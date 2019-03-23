@@ -23,3 +23,21 @@ chartView.chartType = .Bar
 chartView.chartType = .Line
 ```
   <img src="Resource/ChartView.gif" width="300"/>
+
+* **TapeMeasureView**
+
+  스크롤 뷰와 Layer를 이용하여 만든 TapeMeasureView입니다. 줄자를 표현한 커스텀 뷰로 수치를 입력할 때 사용됩니다.
+  
+```swift
+// 줄자의 최소 값
+tapeMeasureView.minData = 10.0
+// 줄자의 최대 값
+tapeMeasureView.maxData = 250.0
+// 줄자가 시작할 위치의 값
+tapeMeasureView.startData = 60.0
+// 줄자에 표시 될 단위
+tapeMeasureView.unit = "kg"
+// 줄자 세팅
+tapeMeasureView.setTapeMeasure()
+```
+  <img src="Resource/TapeMeasureView.gif" width="300"/>
