@@ -22,3 +22,4 @@ chartView.chartType = .Bar
 //선형 차트
 chartView.chartType = .Line
 ```
+  <img src="Resource/ChartView.gif" width="300"/>
