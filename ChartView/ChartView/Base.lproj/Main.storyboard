@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChartView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXg-wE-FXb" customClass="ChartView" customModule="CustomView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="334.5" width="375" height="332.5"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5m-K3-d1M" customClass="ChartView" customModule="CustomView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="332.5"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H37-a2-GdV">
+                                <rect key="frame" x="0.0" y="332.5" width="375" height="2"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="SBb-fu-bAo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H37-a2-GdV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1nu-pU-mEH"/>
+                            <constraint firstItem="LXg-wE-FXb" firstAttribute="top" secondItem="H37-a2-GdV" secondAttribute="bottom" id="4YW-Bb-O4d"/>
+                            <constraint firstAttribute="trailing" secondItem="H37-a2-GdV" secondAttribute="trailing" id="K7C-YL-kZq"/>
+                            <constraint firstItem="H37-a2-GdV" firstAttribute="top" secondItem="Q5m-K3-d1M" secondAttribute="bottom" id="Lkn-Gn-Jxq"/>
+                            <constraint firstItem="Q5m-K3-d1M" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PVu-Vw-onX"/>
+                            <constraint firstAttribute="trailing" secondItem="LXg-wE-FXb" secondAttribute="trailing" id="QJd-It-DUS"/>
+                            <constraint firstItem="Q5m-K3-d1M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WFG-kT-Nk2"/>
+                            <constraint firstItem="LXg-wE-FXb" firstAttribute="height" secondItem="Q5m-K3-d1M" secondAttribute="height" id="g9a-iI-mxr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LXg-wE-FXb" secondAttribute="bottom" id="ktF-tt-3NB"/>
+                            <constraint firstItem="LXg-wE-FXb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o2v-uF-K1g"/>
+                            <constraint firstItem="LXg-wE-FXb" firstAttribute="top" secondItem="H37-a2-GdV" secondAttribute="bottom" id="suy-Yf-Sk6"/>
+                            <constraint firstAttribute="trailing" secondItem="Q5m-K3-d1M" secondAttribute="trailing" id="yLL-Jx-s0b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="barChartView" destination="Q5m-K3-d1M" id="rB0-ME-4yt"/>
+                        <outlet property="lineChartView" destination="LXg-wE-FXb" id="2fD-GT-bJf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
