@@ -42,3 +42,18 @@ tapeMeasureView.unit = "kg"
 tapeMeasureView.setTapeMeasure()
 ```
   <img src="Resource/TapeMeasureView.gif" width="300"/>
+
+* **StopWatchLabel**
+
+  라벨과 타이머를 이용하여 만든 StopWathchLabel입니다. 인증번호 입력이나, 세션 유효 시간 등의 시간을 나타낼 때 사용됩니다.
+  
+```swift 
+  // 스탑워치를 시작합니다.
+  // counter : 스탑워치의 총 시간
+  stopWatchLabel.startStopWatch(counter: 10.0)
+  // 스탑워치를 종료합니다.
+  stopWatchLabel.stopStopWatch()
+  // 스탑워치 시간이 0이 되었을 때 이벤트를 받기 위한 Delegate
+  stopWatchLabel.delegate = self
+```
+  <img src="Resource/StopWatchLabel.gif" width="300"/>
