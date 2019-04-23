@@ -20,6 +20,7 @@ CustomView
 ```swift
 //막대 차트 : Default
 chartView.chartType = .Bar
+
 //선형 차트
 chartView.chartType = .Line
 ```
@@ -32,12 +33,16 @@ chartView.chartType = .Line
 ```swift
 // 줄자의 최소 값
 tapeMeasureView.minData = 10.0
+
 // 줄자의 최대 값
 tapeMeasureView.maxData = 250.0
+
 // 줄자가 시작할 위치의 값
 tapeMeasureView.startData = 60.0
+
 // 줄자에 표시 될 단위
 tapeMeasureView.unit = "kg"
+
 // 줄자 세팅
 tapeMeasureView.setTapeMeasure()
 ```
@@ -51,9 +56,28 @@ tapeMeasureView.setTapeMeasure()
   // 스탑워치를 시작합니다.
   // counter : 스탑워치의 총 시간
   stopWatchLabel.startStopWatch(counter: 10.0)
+  
   // 스탑워치를 종료합니다.
   stopWatchLabel.stopStopWatch()
+  
   // 스탑워치 시간이 0이 되었을 때 이벤트를 받기 위한 Delegate
   stopWatchLabel.delegate = self
 ```
   <img src="Resource/StopWatchLabel.gif" width="300"/>
+  
+* **LoadingActivityIndicator**
+
+  UIActivityIndicatorView를 편하게 사용하기 위해 만든 커스텀 UIActivityIndicatorView입니다.
+  
+```swift 
+  // UIActivityIndicatorView를 시작합니다.
+  // targetView : UIActivityIndicatorView를 실행 할 타겟 뷰입니다.
+  // indicatorColor : UIActivityIndicatorView의 색상입니다.
+  // overlayViewColor : targetView 위에 씌어질 overlayView의 배경색입니다.
+  LoadingActivityIndicator.shared.start(targetView, indicatorColor: indicatorColor, overlayViewColor: overlayViewColor)
+  
+  // UIActivityIndicatorView를 종료합니다.
+  // targetView : UIActivityIndicatorView를 종료 할 타겟 뷰입니다.
+  LoadingActivityIndicator.shared.stop(targetView)
+```
+  <img src="Resource/LoadingActivityIndicator.gif" width="300"/>
