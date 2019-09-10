@@ -81,3 +81,27 @@ tapeMeasureView.setTapeMeasure()
   LoadingActivityIndicator.shared.stop(targetView)
 ```
   <img src="Resource/LoadingActivityIndicator.gif" width="300"/>
+  
+* **CircleDotLoadingLayer**
+  
+  원형 점 3개를 만들어 로딩 Layer를 만들어주는 커스텀 Layer입니다.
+  
+```swift 
+  // layer를 생성합니다.
+  // frame : layer가 만들어질 위치를 지정합니다.
+  var loadingLayer = CircleDotLoadingLayer(frame: view.bounds)
+  
+  // layer 애니메이션을 시작합니다.
+  loadingLayer.showLayer()
+  
+  // layer 애니메이션을 종료합니다.
+  loadingLayer.hideLayer()
+  
+  // 애니메이션 동작 중 나타나는 메시지입니다.
+  loadingLayer.startText = "검색 중..."
+  
+  // 애니메이션 종료 후 나타나는 메시지입니다.
+  loadingLayer.endText = "검색 완료!"
+```
+
+  <img src="Resource/CircleDotLoadingLayer.gif" width="300"/>
