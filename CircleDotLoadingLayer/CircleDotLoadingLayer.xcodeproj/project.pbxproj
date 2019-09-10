@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261C7A64232782120040D6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C7A63232782120040D6DA /* AppDelegate.swift */; };
+		261C7A66232782120040D6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C7A65232782120040D6DA /* ViewController.swift */; };
+		261C7A69232782120040D6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C7A67232782120040D6DA /* Main.storyboard */; };
+		261C7A6B232782130040D6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261C7A6A232782130040D6DA /* Assets.xcassets */; };
+		261C7A6E232782130040D6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C7A6C232782130040D6DA /* LaunchScreen.storyboard */; };
+		261C7A79232782130040D6DA /* CircleDotLoadingLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C7A78232782130040D6DA /* CircleDotLoadingLayerTests.swift */; };
+		261C7A84232782130040D6DA /* CircleDotLoadingLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C7A83232782130040D6DA /* CircleDotLoadingLayerUITests.swift */; };
+		261C7A94232782450040D6DA /* CircleDotLoadingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C7A93232782450040D6DA /* CircleDotLoadingLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261C7A75232782130040D6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C7A58232782120040D6DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261C7A5F232782120040D6DA;
+			remoteInfo = CircleDotLoadingLayer;
+		};
+		261C7A80232782130040D6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C7A58232782120040D6DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261C7A5F232782120040D6DA;
+			remoteInfo = CircleDotLoadingLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261C7A60232782120040D6DA /* CircleDotLoadingLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleDotLoadingLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C7A63232782120040D6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		261C7A65232782120040D6DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		261C7A68232782120040D6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261C7A6A232782130040D6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261C7A6D232782130040D6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		261C7A6F232782130040D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261C7A74232782130040D6DA /* CircleDotLoadingLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleDotLoadingLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C7A78232782130040D6DA /* CircleDotLoadingLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDotLoadingLayerTests.swift; sourceTree = "<group>"; };
+		261C7A7A232782130040D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261C7A7F232782130040D6DA /* CircleDotLoadingLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleDotLoadingLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C7A83232782130040D6DA /* CircleDotLoadingLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDotLoadingLayerUITests.swift; sourceTree = "<group>"; };
+		261C7A85232782130040D6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261C7A93232782450040D6DA /* CircleDotLoadingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDotLoadingLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261C7A5D232782120040D6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A71232782130040D6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A7C232782130040D6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261C7A57232782120040D6DA = {
+			isa = PBXGroup;
+			children = (
+				261C7A62232782120040D6DA /* CircleDotLoadingLayer */,
+				261C7A77232782130040D6DA /* CircleDotLoadingLayerTests */,
+				261C7A82232782130040D6DA /* CircleDotLoadingLayerUITests */,
+				261C7A61232782120040D6DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261C7A61232782120040D6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261C7A60232782120040D6DA /* CircleDotLoadingLayer.app */,
+				261C7A74232782130040D6DA /* CircleDotLoadingLayerTests.xctest */,
+				261C7A7F232782130040D6DA /* CircleDotLoadingLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261C7A62232782120040D6DA /* CircleDotLoadingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				261C7A63232782120040D6DA /* AppDelegate.swift */,
+				261C7A93232782450040D6DA /* CircleDotLoadingLayer.swift */,
+				261C7A65232782120040D6DA /* ViewController.swift */,
+				261C7A67232782120040D6DA /* Main.storyboard */,
+				261C7A6A232782130040D6DA /* Assets.xcassets */,
+				261C7A6C232782130040D6DA /* LaunchScreen.storyboard */,
+				261C7A6F232782130040D6DA /* Info.plist */,
+			);
+			path = CircleDotLoadingLayer;
+			sourceTree = "<group>";
+		};
+		261C7A77232782130040D6DA /* CircleDotLoadingLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				261C7A78232782130040D6DA /* CircleDotLoadingLayerTests.swift */,
+				261C7A7A232782130040D6DA /* Info.plist */,
+			);
+			path = CircleDotLoadingLayerTests;
+			sourceTree = "<group>";
+		};
+		261C7A82232782130040D6DA /* CircleDotLoadingLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				261C7A83232782130040D6DA /* CircleDotLoadingLayerUITests.swift */,
+				261C7A85232782130040D6DA /* Info.plist */,
+			);
+			path = CircleDotLoadingLayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261C7A5F232782120040D6DA /* CircleDotLoadingLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C7A88232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayer" */;
+			buildPhases = (
+				261C7A5C232782120040D6DA /* Sources */,
+				261C7A5D232782120040D6DA /* Frameworks */,
+				261C7A5E232782120040D6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleDotLoadingLayer;
+			productName = CircleDotLoadingLayer;
+			productReference = 261C7A60232782120040D6DA /* CircleDotLoadingLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261C7A73232782130040D6DA /* CircleDotLoadingLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C7A8B232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayerTests" */;
+			buildPhases = (
+				261C7A70232782130040D6DA /* Sources */,
+				261C7A71232782130040D6DA /* Frameworks */,
+				261C7A72232782130040D6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261C7A76232782130040D6DA /* PBXTargetDependency */,
+			);
+			name = CircleDotLoadingLayerTests;
+			productName = CircleDotLoadingLayerTests;
+			productReference = 261C7A74232782130040D6DA /* CircleDotLoadingLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		261C7A7E232782130040D6DA /* CircleDotLoadingLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C7A8E232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayerUITests" */;
+			buildPhases = (
+				261C7A7B232782130040D6DA /* Sources */,
+				261C7A7C232782130040D6DA /* Frameworks */,
+				261C7A7D232782130040D6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261C7A81232782130040D6DA /* PBXTargetDependency */,
+			);
+			name = CircleDotLoadingLayerUITests;
+			productName = CircleDotLoadingLayerUITests;
+			productReference = 261C7A7F232782130040D6DA /* CircleDotLoadingLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261C7A58232782120040D6DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "GilNam Park";
+				TargetAttributes = {
+					261C7A5F232782120040D6DA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					261C7A73232782130040D6DA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 261C7A5F232782120040D6DA;
+					};
+					261C7A7E232782130040D6DA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 261C7A5F232782120040D6DA;
+					};
+				};
+			};
+			buildConfigurationList = 261C7A5B232782120040D6DA /* Build configuration list for PBXProject "CircleDotLoadingLayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261C7A57232782120040D6DA;
+			productRefGroup = 261C7A61232782120040D6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261C7A5F232782120040D6DA /* CircleDotLoadingLayer */,
+				261C7A73232782130040D6DA /* CircleDotLoadingLayerTests */,
+				261C7A7E232782130040D6DA /* CircleDotLoadingLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261C7A5E232782120040D6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C7A6E232782130040D6DA /* LaunchScreen.storyboard in Resources */,
+				261C7A6B232782130040D6DA /* Assets.xcassets in Resources */,
+				261C7A69232782120040D6DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A72232782130040D6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A7D232782130040D6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261C7A5C232782120040D6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C7A66232782120040D6DA /* ViewController.swift in Sources */,
+				261C7A94232782450040D6DA /* CircleDotLoadingLayer.swift in Sources */,
+				261C7A64232782120040D6DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A70232782130040D6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C7A79232782130040D6DA /* CircleDotLoadingLayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C7A7B232782130040D6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C7A84232782130040D6DA /* CircleDotLoadingLayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261C7A76232782130040D6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261C7A5F232782120040D6DA /* CircleDotLoadingLayer */;
+			targetProxy = 261C7A75232782130040D6DA /* PBXContainerItemProxy */;
+		};
+		261C7A81232782130040D6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261C7A5F232782120040D6DA /* CircleDotLoadingLayer */;
+			targetProxy = 261C7A80232782130040D6DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261C7A67232782120040D6DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C7A68232782120040D6DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261C7A6C232782130040D6DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C7A6D232782130040D6DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261C7A86232782130040D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		261C7A87232782130040D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261C7A89232782130040D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		261C7A8A232782130040D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		261C7A8C232782130040D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleDotLoadingLayer.app/CircleDotLoadingLayer";
+			};
+			name = Debug;
+		};
+		261C7A8D232782130040D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleDotLoadingLayer.app/CircleDotLoadingLayer";
+			};
+			name = Release;
+		};
+		261C7A8F232782130040D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleDotLoadingLayer;
+			};
+			name = Debug;
+		};
+		261C7A90232782130040D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleDotLoadingLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GilNam-Park.CircleDotLoadingLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleDotLoadingLayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261C7A5B232782120040D6DA /* Build configuration list for PBXProject "CircleDotLoadingLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C7A86232782130040D6DA /* Debug */,
+				261C7A87232782130040D6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261C7A88232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C7A89232782130040D6DA /* Debug */,
+				261C7A8A232782130040D6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261C7A8B232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C7A8C232782130040D6DA /* Debug */,
+				261C7A8D232782130040D6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261C7A8E232782130040D6DA /* Build configuration list for PBXNativeTarget "CircleDotLoadingLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C7A8F232782130040D6DA /* Debug */,
+				261C7A90232782130040D6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261C7A58232782120040D6DA /* Project object */;
+}
