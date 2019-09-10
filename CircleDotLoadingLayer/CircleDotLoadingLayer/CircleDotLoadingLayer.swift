@@ -75,7 +75,7 @@ class CircleDotLoadingLayer: CALayer, CAAnimationDelegate {
         startCircleLayerAnimation()
     }
     
-    func hideLayer(isSuccess: Bool) {
+    func hideLayer() {
         
         if isShow == false {
             return
@@ -83,9 +83,7 @@ class CircleDotLoadingLayer: CALayer, CAAnimationDelegate {
         
         isShow = false
         
-        if isSuccess {
-            animationStop()
-        }
+        animationStop()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             

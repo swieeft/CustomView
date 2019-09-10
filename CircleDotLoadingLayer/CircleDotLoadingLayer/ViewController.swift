@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBAction func showButtonAction(_ sender: UIButton) {
         
         if sender.isSelected {
-            loadingLayer?.hideLayer(isSuccess: true)
+            loadingLayer?.hideLayer()
             
             loadingLayer = nil
             
